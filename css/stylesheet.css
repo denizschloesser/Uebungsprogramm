@@ -71,3 +71,41 @@ body{
      float: left;
      padding: 5px;
  }
+
+.Liste{
+    width: 100%;
+    height: calc(100% - 10% - 3px);
+}
+
+ .Listenelement{
+     border: 1px solid grey;
+}
+
+.Teilelement{
+    float: left;
+    padding: 5px;
+    color: grey;
+}
+
+.Bildquelle{
+    padding-bottom: 20%; 
+}
+
+.Bildtitel{
+    color: #000000;
+    padding-bottom: 20%; 
+}
+
+.Pfeilicon{
+    float: left;
+    margin-right: 5px;
+    padding-bottom: 20%;
+}
+
+#Rechts{
+    float: right;
+}
+
+.Optionicon{
+    margin-right: 0%;
+}
