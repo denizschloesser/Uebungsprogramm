@@ -5,8 +5,14 @@ body{
  
  
  #kopfzeile{   
+<<<<<<< HEAD
      position: fixed; 
      border-bottom: 3px solid gray;  
+=======
+     position: fixed;
+     display:flex; 
+     align-items:center;
+>>>>>>> 4feb2d26c97dc2ed30165e0a1866bbd7194c388a
      width: 100%;
      height: calc(5% - 3px);
      background-color: white;
@@ -15,26 +21,21 @@ body{
      
  }
  
- #menue_Icon{
-     margin: calc(20px - 15px);
-     float: left;
+ #menue_Icon{ 
+    margin-left: 1%;
  }
  
  #ueberschrift{  
-     
-     margin: calc(20px - 15px) 0px 0px calc(20px - 15px);
-     float: left;
+   margin-left: 1.5%;
  }
  
  #punkte_Icon{  
-     margin: calc(20px - 15px);
-     float: right;
+     margin-left: 1.5%;
+     margin-right: 1%;
  }
  
- #plus_Icon{   
-     margin: calc(20px - 15px) 15px calc(20px - 15px) 15px;
-     
-     float: right;
+ #plus_Icon{       
+    margin-left: auto;
  }
  
  /*################ Grauelinlie ################## */
@@ -55,20 +56,19 @@ body{
  }
  
  #inhaltfusszeile{
+     display: flex;
+     align-items:center;
      background-color: white;
-     width: 100%;
-     height: 5%;
+     width: 100% ;
+     height: calc(5% - 3px);
      border-top: 3px solid orange;
  }
  
  #reload_Icon{  
-     padding-bottom: 100px;
-     float: right;
-     padding: 5px;
+     margin-left: auto;
+     margin-right: 1%;
  }
  
  #logout_Icon{
-     padding-bottom: calc(20px - 15px);
-     float: left;
-     padding: 5px;
+     margin-left: 1%;
  }
