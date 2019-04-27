@@ -5,14 +5,10 @@ body{
  
  
  #kopfzeile{   
-<<<<<<< HEAD
-     position: fixed; 
-     border-bottom: 3px solid gray;  
-=======
+
      position: fixed;
      display:flex; 
      align-items:center;
->>>>>>> 4feb2d26c97dc2ed30165e0a1866bbd7194c388a
      width: 100%;
      height: calc(5% - 3px);
      background-color: white;
